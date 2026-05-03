@@ -19,12 +19,14 @@ Bengaluru House Price dataset from Kaggle — 13,000+ property listings with fea
 - MAE and RMSE calculated on actual price scale (lakhs)
 
 ## Project Structure
+```
 HousePricePrediction/
 ├── data/
 │   └── bengaluru_house_prices.csv
 ├── model/
 │   └── pred.ipynb
 └── README.md
+```
 
 ## Tools Used
 Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
