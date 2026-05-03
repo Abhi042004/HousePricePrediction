@@ -12,8 +12,10 @@ locations = ['Electronic City Phase II', 'Chikka Tirupathi', 'Uttarahalli', 'Lin
 st.title("Bengaluru House Price Predictor")
 
 location = st.selectbox("Location", sorted(locations))
-area_type = st.selectbox("Area Type", ['Super built-up  Area', 'Built-up  Area', 'Plot  Area', 'Carpet  Area'])
-prop_type = st.selectbox("Type", ['BHK', 'RK'])
+area_type = st.selectbox("Area Type", 
+    ['Super built-up  Area', 'Built-up  Area', 'Plot  Area', 'Carpet  Area'],
+    help="Super built-up includes common areas. Built-up is wall to wall. Carpet is usable area inside walls. Plot is land area.")
+prop_type = 'BHK'
 total_sqft = st.number_input("Total Sqft", min_value=300, max_value=10000, value=1000)
 bath = st.number_input("Bathrooms", min_value=1, max_value=10, value=2)
 balcony = st.number_input("Balconies", min_value=0, max_value=3, value=1)
