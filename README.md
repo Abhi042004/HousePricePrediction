@@ -15,7 +15,7 @@ Bengaluru House Price dataset from Kaggle — 13,000+ property listings with fea
 - Trained Linear Regression model
 
 ## Results
-- R² Score: 0.73
+- R² Score: 0.74
 - MAE and RMSE calculated on actual price scale (lakhs)
 
 ## Project Structure
